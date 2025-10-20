@@ -1,0 +1,14 @@
+:root {
+  --dark-color: rgba(21, 21, 21, 0.667);
+  --primary-navy-color: #27374D;
+  --secondary-navy-color: #526D82;
+  --light-navy-color: #9DB2BF;
+  --white-navy-color: #DDE6ED;
+
+  --border-color: var(--white-navy-color);
+  --border-width: 1px;
+  --border-style: solid;
+  --border: var(--border-width) var(--border-style) var(--border-color);
+
+  --backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+}

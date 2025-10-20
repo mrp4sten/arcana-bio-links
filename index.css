@@ -1,0 +1,85 @@
+@import "./variables.css";
+
+main {
+  position: relative;
+}
+
+body {
+  background: url(./img/arcana_bg.jpg) repeat center center fixed;
+  background-size: cover;
+  color: var(--white-navy-color);
+  font-family: sans-serif;
+}
+
+header {
+  margin-top: 1em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header > img {
+  width: 6em;
+  height: 6em;
+  border-radius: 100%;
+  border: var(--border);
+  box-shadow: var(--light-navy-color) 0px 2px 8px 0px;
+}
+
+header > h1 {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 1em;
+  background-color: var(--dark-color);
+  backdrop-filter: var(--backdrop-filter);
+  padding: 0.3em 0.6em;
+  border: var(--border);
+}
+
+ul {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 480px;
+}
+
+ul > li {
+  background-color: var(--dark-color);
+  backdrop-filter: var(--backdrop-filter);
+  border-radius: 10em;
+  padding: 1em;
+  margin: 1.4em 0;
+  box-shadow: var(--white-navy-color) 0px 2px 8px 0px;
+}
+
+
+
+ul > li > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+ul > li > a > img {
+  width: 2em;
+}
+
+a {
+  color: var(--white-navy-color);
+  text-decoration: none;
+}
+
+#vanta {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
